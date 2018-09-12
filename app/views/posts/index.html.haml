@@ -3,8 +3,8 @@
     - @posts.each do |post|
       %section
         .post-head.clearfix.otstup
-        %h2.cccenter
-          = link_to post.title, post_path(post)
+        %h2.nav-link
+          = link_to post.user.username, post_path(post), class:"active"
 
         = image_tag post.image.url(:large), class:'thumb' if post.image?
         .sprava
