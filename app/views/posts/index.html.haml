@@ -4,7 +4,7 @@
       %section
         .post-head.clearfix.otstup
         %h2.nav-link
-          = link_to post.user.username, post_path(post), class:"active"
+          = link_to post.user.username, user_path(post.user_id), class:"active"
 
         = image_tag post.image.url(:large), class:'thumb' if post.image?
         .cccenter
