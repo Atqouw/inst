@@ -77,3 +77,5 @@ gem "mini_magick"
 gem "haml-rails", "~> 1.0"
 
 gem "font-awesome-rails"
+
+gem 'acts_as_votable', '~> 0.11.1'

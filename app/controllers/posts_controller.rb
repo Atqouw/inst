@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :upvote]
   before_action :authenticate_user! , except: [:index, :show]
 
   # GET /posts
@@ -13,7 +13,10 @@ class PostsController < ApplicationController
   def show
   end
 
-  def sign
+
+  def upvote
+    @post.upvote_by current_user
+    redirect_back fallback_location: root_path
   end
 
   # GET /posts/new
