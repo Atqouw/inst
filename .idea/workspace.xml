@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="038513d0-ce61-4f66-98ec-ed23e7148351" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/10/299801.700xp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/10/large_299801.700xp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/10/thumb_299801.700xp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/6/large_thumb_maxim_denisov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/6/thumb_maxim_denisov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/6/thumb_thumb_maxim_denisov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/7/dd61c5c3ef356ee477258a05360369c8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/7/large_dd61c5c3ef356ee477258a05360369c8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/7/thumb_dd61c5c3ef356ee477258a05360369c8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/8/large_sea-418742_960_720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/8/sea-418742_960_720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/post/image/8/thumb_sea-418742_960_720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J4/J4T4GygSmEljfxjIdAlFsTFmsc-OV-ga5SSEI0YIVdE.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J4/J4T4GygSmEljfxjIdAlFsTFmsc-OV-ga5SSEI0YIVdE.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MQ/MQtXaqtArAmKWBc6Iw4tLh0ttfCzz7Pa5eHXkGL1agg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MQ/MQtXaqtArAmKWBc6Iw4tLh0ttfCzz7Pa5eHXkGL1agg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oe/Oemq1NUHwj-zGaHpJ0fOkYqKKC2T6J9Cm6tdgpHssN4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oe/Oemq1NUHwj-zGaHpJ0fOkYqKKC2T6J9Cm6tdgpHssN4.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UO/UOjN_bAnbxJU8qeS2ySb725tfIfvCoU1NgO9r5oU4Mg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UO/UOjN_bAnbxJU8qeS2ySb725tfIfvCoU1NgO9r5oU4Mg.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YM/YM49mp-vZUTo4A-hlhJ1KuuJUsD5V-HwtZUQVdMisXw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YM/YM49mp-vZUTo4A-hlhJ1KuuJUsD5V-HwtZUQVdMisXw.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hS/hSWfJASoOKzSeZkklef8RYAFm-AykAI8abJSf2VhcWs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hS/hSWfJASoOKzSeZkklef8RYAFm-AykAI8abJSf2VhcWs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tx/txQ6buzTggXOkqwotdKsb_cbFi1S_qEo4yWtlhmmKHA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tx/txQ6buzTggXOkqwotdKsb_cbFi1S_qEo4yWtlhmmKHA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/1a/48fe7d801fea23" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/1a/48fe7d801fea23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/28/1071a95f8e1f90" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/28/1071a95f8e1f90" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/10e57ff1149b4b" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/10e57ff1149b4b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -79,14 +52,14 @@
           <entry key="Gemfile" value="21" />
           <entry key="Ruby Console" value="501" />
           <entry key="erb" value="363" />
-          <entry key="haml" value="578" />
+          <entry key="haml" value="583" />
           <entry key="rb" value="829" />
           <entry key="sass" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Haml" value="578" />
+          <entry key="Haml" value="583" />
           <entry key="RHTML" value="363" />
           <entry key="Ruby" value="1351" />
           <entry key="Sass" value="77" />
@@ -99,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state relative-caret-position="240">
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -490,22 +463,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536593007499</updated>
-      <workItem from="1536593010527" duration="28005000" />
+      <workItem from="1536593010527" duration="28690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28005000" />
+    <option name="totallyTimeSpent" value="28690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27382874" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" visible="true" weight="0.32894737" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5016155" side_tool="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.35818714" />
@@ -751,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        <state relative-caret-position="240">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>
