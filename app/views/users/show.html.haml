@@ -2,4 +2,4 @@
 .row
   .col-md-4
     = @user_posts.each do |post|
-      = image_tag post.image.url(:large), class:'thumb border' if post.image?
+      = link_to (image_tag post.image.url(:large), class:'thumb' if post.image?), post_path(post)

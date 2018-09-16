@@ -5,8 +5,7 @@
         .post-head.clearfix.otstup
         %h2.nav-link
           = link_to post.user.username, user_path(post.user_id), class:"active"
-
-        = image_tag post.image.url(:large), class:'thumb' if post.image?
+        = link_to (image_tag post.image.url(:large), class:'thumb' if post.image?), post_path(post)
         .cccenter
           =link_to like_post_path(post), method: :put, class:"" do
             %span.fa.fa-heart-o
