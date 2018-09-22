@@ -12,10 +12,9 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
-
   def upvote
-    @post.upvote_by current_user
-    redirect_back fallback_location: root_path
+    @post.upvote_by(current_user)
+    # redirect_back fallback_location: root_path
   end
 
   # GET /posts/new

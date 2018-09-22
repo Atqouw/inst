@@ -7,20 +7,24 @@
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
-  %body
-    %nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top
-      .container
-        %a.navbar-brand{:href => posts_path} Insta
-        %button.navbar-toggler{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
-          %span.navbar-toggler-icon
-        #navbarResponsive.collapse.navbar-collapse
-          %ul.navbar-nav.ml-auto
-            %li.nav-item.active
-              %a.nav-link{:href => posts_path}
-                All posts
-                %span.sr-only (current)
-              %span.sr-only (current)
-            %li.nav-item
-              %a.nav-link.btn.btn-outline{:href => new_post_path} New post
+  %body.fafafa
+    %nav.navbar.navbar-expand-lg.navbar-light.bg.wgtt.static-top
+      %a.navbar-brand.fa.fa-camera-retro.fa-lg.ee{:href => posts_path} / Insta
+      %button.navbar-toggler{"aria-controls" => "navbarResponsive", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarResponsive", "data-toggle" => "collapse", :type => "button"}
+        %span.navbar-toggler-icon
+      %ul.navbar-nav.ml-auto.eee
+        - if user_signed_in?
+          %li
+            = link_to('Edit user', edit_user_path(current_user), class: 'nav-link')
+          %li
+          = link_to 'New post', new_post_path, class:'nav-link'
+          = link_to user_path(current_user) do
+            = image_tag current_user.avatar.url(:thumb), class: 'avatar-small' if current_user.avatar?
+          %li
+            = link_to "Log out", destroy_user_session_path, method: :delete, class: 'nav-link'
+        - else
+          %li
+            %a.nav-link.active.eee{:href => new_user_session_path} Sign Up / Log in
     .container
       = yield
+

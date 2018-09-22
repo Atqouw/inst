@@ -1,6 +1,10 @@
 .cccenter
-  %h1= @user.username
-.row
-  - @user_posts.each do |post|
-    .col-md-4
-      = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
+  %section
+    = image_tag @user.avatar.url(:thumb), class:"avatar-small" if @user.avatar?
+    %h1
+      = @user.username
+
+    .row
+      - @user_posts.each do |post|
+        .col-md-4
+          = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?

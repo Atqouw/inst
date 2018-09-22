@@ -8,17 +8,18 @@
       .container
         %strong
           &emsp;
-        = @post.user.username + ":"
-
+        = image_tag @post.user.avatar.url(:thumb), class:'avatar-small' if @post.user.avatar?
+        = link_to @post.user.username, user_path(@post.user_id), class:'active btn btn-default btn-md'
         %strong
           =@post.title
-
         %p
           %strong
             &emsp; &emsp; &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
           = @post.content
-
-    = time_ago_in_words(@post.created_at) + ' ago'
+      .cccenter
+        %div{id: "like-for-post-#{@post.id}"}
+          = render(partial: 'posts/partials/like_template', locals: { post: @post })
+        = time_ago_in_words(@post.created_at) + ' ago'
     %small
       - if current_user && current_user.id == @post.user_id
         = link_to 'Изменить', edit_post_path(@post), class:""
