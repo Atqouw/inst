@@ -1,0 +1,26 @@
+I"~(function() {
+  $(document).on("turbolinks:load", this.afterRenderPage(function() {}));
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        ({
+          initializePlugins: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+            return _this.initializeNivoLightshot($scope);
+          },
+          initializeNivoLightshot: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+          }
+        });
+        return $scope.find('.nivolightshot').nivolightshot();
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,13 @@
+I"A(function() {
+  $(document).ready(function() {
+    console.log('<><><><><><>');
+    console.log($('.posts-section'));
+    console.log('<><><><><><>');
+    return $('.posts-section').infinitescroll({
+      navSelector: ".posts-pagination",
+      nextSelector: ".posts-pagination a[rel=next]"
+    });
+  });
+
+}).call(this);
+:ET

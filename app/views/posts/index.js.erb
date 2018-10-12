@@ -1,0 +1,2 @@
+$('.posts-section').append("<%= j render(partial: 'posts/partials/post', collection: @posts) %>")
+$('.posts-pagination').replaceWith("<%= j link_to_next_page(@posts, 'Load more', remote: true) %>")

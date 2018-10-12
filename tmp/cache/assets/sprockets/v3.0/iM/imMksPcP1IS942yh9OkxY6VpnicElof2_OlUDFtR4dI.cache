@@ -1,0 +1,13 @@
+I"ö(function() {
+  $(document).on("turbolinks:load", this.afterRenderPage(function() {}));
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        return _this.initializePlugins();
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,14 @@
+I"Õ(function() {
+  var ready;
+
+  ready = function() {
+    $('lightbox.asas').lightbox;
+    return $('.masonry').masonry;
+  };
+
+  $(document).ready(ready);
+
+  $(document).on('turbolinks:load', ready);
+
+}).call(this);
+:ET

@@ -1,0 +1,14 @@
+I"e(function() {
+  $(document).ready(function() {
+    console.log('<><><><><><>');
+    console.log($('.posts-section'));
+    console.log('<><><><><><>');
+    return $('.posts-section').infiniteScrollGUID({
+      navSelector: "nav.pagination",
+      nextSelector: "nav.pagination a[rel=next]",
+      itemSelector: "#posts tr.post"
+    });
+  });
+
+}).call(this);
+:ET

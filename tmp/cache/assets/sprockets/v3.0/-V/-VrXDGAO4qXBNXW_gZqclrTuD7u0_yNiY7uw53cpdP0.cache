@@ -1,0 +1,28 @@
+I"š(function() {
+  $(document).on("turbolinks:load", this.afterRenderPage(function() {}));
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        return {
+          initializePlugins: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+            _this.initializeMasonry($scope);
+            ({
+              initializeMasonry: function($scope) {
+                if ($scope == null) {
+                  $scope = $('body');
+                }
+              }
+            });
+            return $scope.find('.masonry').Masonry();
+          }
+        };
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

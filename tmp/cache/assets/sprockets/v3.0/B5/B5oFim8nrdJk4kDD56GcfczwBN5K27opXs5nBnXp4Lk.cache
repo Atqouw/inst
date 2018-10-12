@@ -1,0 +1,26 @@
+I"(function() {
+  var base;
+
+  window.Application || (window.Application = {});
+
+  (base = window.Application).Classes || (base.Classes = {});
+
+  Application.Core = (function() {
+    function Core() {}
+
+    Core.prototype.start = function() {
+      return document.addEventListener('turbolinks:load', (function(_this) {
+        return function() {
+          return _this.afterRenderPage();
+        };
+      })(this));
+    };
+
+    Core.prototype.afterRenderPage = function() {};
+
+    return Core;
+
+  })();
+
+}).call(this);
+:ET

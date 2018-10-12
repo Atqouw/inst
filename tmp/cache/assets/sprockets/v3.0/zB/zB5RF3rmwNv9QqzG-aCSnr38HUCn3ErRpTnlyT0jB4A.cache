@@ -1,0 +1,7 @@
+I"j(function() {
+  application.js(function() {});
+
+  $(document).on('turbolinks:load');
+
+}).call(this);
+:ET

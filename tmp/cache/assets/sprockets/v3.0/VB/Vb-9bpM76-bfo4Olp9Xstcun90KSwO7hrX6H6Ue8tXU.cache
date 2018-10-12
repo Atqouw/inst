@@ -1,0 +1,7 @@
+I"y(function() {
+  application.js(function() {});
+
+  $(document).on('turbolinks:load', function() {});
+
+}).call(this);
+:ET

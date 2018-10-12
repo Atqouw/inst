@@ -1,0 +1,45 @@
+I"¬(function() {
+  var base;
+
+  $(function() {});
+
+  Application.app = new Application.Core;
+
+  Application.app.start();
+
+  window.Application || (window.Application = {});
+
+  (base = window.Application).Classes || (base.Classes = {});
+
+  Application.Core = (function() {
+    function Core() {}
+
+    return Core;
+
+  })();
+
+  $(document).on("turbolinks:load", this.afterRenderPage(function() {}));
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        ({
+          initializePlugins: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+            return _this.initializeNivoLightbox($scope);
+          },
+          initializeNivoLightbox: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+          }
+        });
+        return $scope.find('.nivolightbox').nivolightbox();
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

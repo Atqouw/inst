@@ -1,0 +1,40 @@
+I"¸(function() {
+  application.js(function() {});
+
+  $(function() {});
+
+  Application.app = new Application.Core;
+
+  Application.app.start();
+
+  Application.Core = (function() {
+    function Core() {}
+
+    return Core;
+
+  })();
+
+  ({
+    start: function() {}
+  });
+
+  $(document).on('turbolinks:load', this.afterRenderPage);
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        return _this.initializePlugins();
+      };
+    })(this),
+    initializePlugins: (function(_this) {
+      return function($scope) {
+        if ($scope == null) {
+          $scope = $('body');
+        }
+        return _this.initializeLightbox($scope);
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

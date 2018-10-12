@@ -1,23 +1,6 @@
 .row
   .col-md-8.offset-md-2
-    - @posts.each do |post|
-      %section
-        .post-head.clearfix.otstup
-          = image_tag post.user.avatar.url(:thumb), class:"avatar-small" if post.user.avatar?
-          = link_to post.user.username, user_path(post.user_id), class:"active btn btn-default btn-lg"
-        = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
-        .container
-          %h4
-            = post.user.username + ":"
-          %p
-            = post.title
-
-          .cccenter
-            %div{id: "like-for-post-#{post.id}"}
-              = render(partial: 'posts/partials/like_template', locals: { post: post })
-            %strong
-              &ensp;
-            - if current_user && current_user.id == post.user_id
-              = link_to 'Изменить', edit_post_path(post), class:""
-              = link_to 'Удалить', post_path(post), method: :delete, data: { confirm: 'Вы уверены?' }
-            = time_ago_in_words(post.created_at) + ' ago'
+    .posts-section
+      = render(partial: 'posts/partials/post', collection: @posts)
+    .posts-pagination
+      = link_to_next_page(@posts, 'Load more', remote: true, class: 'next-page')

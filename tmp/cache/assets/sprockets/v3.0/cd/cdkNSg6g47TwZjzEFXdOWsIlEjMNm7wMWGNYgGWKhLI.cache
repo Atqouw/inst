@@ -1,0 +1,7 @@
+I"{(function() {
+  $(document).on("turbolinks:load", function() {});
+
+  $scope.find('.foto').Lightbox();
+
+}).call(this);
+:ET

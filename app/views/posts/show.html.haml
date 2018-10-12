@@ -3,7 +3,11 @@
     %section
 
       .post-body
-      = image_tag @post.image.url(:large), class: 'img-show' if @post.image?
+      -#= image_tag @post.image.url(:large), data: { lightbox: 'asas' }, class: 'img-show' if @post.image?
+
+      = link_to(@post.image.url(:large), class:'foto', data: { lightbox: 'asas' } ) do
+        = image_tag @post.image.url(:large)
+
       %br
       .container
         %strong

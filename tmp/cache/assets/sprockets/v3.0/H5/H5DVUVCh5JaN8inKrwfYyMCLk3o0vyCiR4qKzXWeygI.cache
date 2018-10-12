@@ -1,0 +1,16 @@
+I"O(function() {
+  $(document).on("turbolinks:load", function() {
+    return $('.foto').lightbox.init;
+  });
+
+  $(document).on("turbolinks:load", function() {
+    return $('#posts').imagesLoaded(function() {
+      return $('#posts').masonry({
+        itemSelector: '.box',
+        isFitWidth: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

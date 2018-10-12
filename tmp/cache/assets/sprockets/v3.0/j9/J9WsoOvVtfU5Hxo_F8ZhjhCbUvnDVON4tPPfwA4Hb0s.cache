@@ -1,0 +1,22 @@
+I"	(function() {
+  application.js(function() {});
+
+  $(document).on('turbolinks:load', this.afterRenderPage({
+    afterRenderPage: (function(_this) {
+      return function() {
+        _this.initializePlugins();
+        return {
+          initializePlugins: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+            _this.initializeLightbox($scope);
+            return _this.initializeMasonly($scope);
+          }
+        };
+      };
+    })(this)
+  }));
+
+}).call(this);
+:ET

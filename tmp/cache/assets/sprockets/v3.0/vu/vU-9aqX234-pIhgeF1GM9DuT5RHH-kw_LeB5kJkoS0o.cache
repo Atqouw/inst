@@ -1,0 +1,12 @@
+I"þ(function() {
+  $(document).ready(function() {
+    console.log('<><><><><><>');
+    console.log($('.posts-section'));
+    console.log('<><><><><><>');
+    return $('.posts-section').infiniteScroll({
+      path: '.next-page'
+    });
+  });
+
+}).call(this);
+:ET

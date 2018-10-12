@@ -1,0 +1,11 @@
+I"(function() {
+  $(document).on('turbolinks:load', function() {
+    return $('.posts-section').infinitescroll({
+      navSelector: ".posts-pagination",
+      nextSelector: ".posts-pagination a[rel=next]",
+      itemSelector: ".posts-section .post"
+    });
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,8 @@
+I"…(function() {
+  $(function() {
+    Application.app = new Application.Core;
+    return Application.app.start();
+  });
+
+}).call(this);
+:ET

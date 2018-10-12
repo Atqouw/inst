@@ -1,10 +1,231 @@
-.cccenter
-  %section
-    = image_tag @user.avatar.url(:thumb), class:"avatar-small" if @user.avatar?
-    %h1
-      = @user.username
+-#.cccenter
+-#  %section
+-#    .row.justify-content-center
+-#      .cccenter
+-#        .col-md-6
+-#          %table
+-#            %tr
+-#              %td
+-#                = image_tag @user.avatar.url(:thumb), class:"avatar-small" if @user.avatar?
+-#                = @user.username
+-#              %td
+-#                = render "posts/partials/follow_stats", :locals => {user: @user}
+-#              %td
+-#                - if user_signed_in?
+-#                  %div{id: "follow_user-#{@user.id}"}
+-#                    = render "posts/partials/follow", :locals => {user: @user}
+-#    .row
+-#      - @user_posts.each do |post|
+-#        .col-md-4
+-#          = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
+-#
 
-    .row
-      - @user_posts.each do |post|
-        .col-md-4
-          = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
+
+
+
+-#.cccenter
+-#  %section
+-#    .row.justify-content-center
+-#      .cccenter
+-#        .col-md-6
+-#          %table
+-#            %tr
+-#              %td
+-#                = image_tag @user.avatar.url(:thumb), class:"avatar-small" if @user.avatar?
+-#                = @user.username
+-#              %td
+-#                = render "posts/partials/follow_stats", :locals => {user: @user}
+-#              %td
+-#                - if user_signed_in?
+-#                  %div{id: "follow_user-#{@user.id}"}
+-#                    = render "posts/partials/follow", :locals => {user: @user}
+-#      #posts
+-#        - @user_posts.each do |post|
+-#          .box.panel.panel-default
+-#            = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
+
+
+-#
+-#.container
+-#  .row.user-menu-container.square
+-#    .col-md-7.user-details
+-#      .row.coralbg.white
+-#        .col-md-6.no-pad
+-#          .user-pad
+-#            %br
+-#            %h3= @user.username
+-#            %br
+-#            - if user_signed_in?
+-#              %div{id: "follow_user-#{@user.id}"}
+-#                = render "posts/partials/follow", :locals => {user: @user}
+-#        .col-md-6.no-pad
+-#          .user-image
+-#            = link_to(@user.avatar.url(:medium), data: { lightbox: 'asas' } ) do
+-#              = image_tag @user.avatar.url(:medium)
+-#      .row.overview
+-#        .col-md-4.user-pad.text-center
+-#          %h3 FOLLOWS
+-#          %h4
+-#            = @user.follow_count
+-#        .col-md-4.user-pad.text-center
+-#          %h3 FOLLOWING
+-#          %h4
+-#            = @user.followers_count
+-#        .col-md-4.user-pad.text-center
+-#          %h3 POSTS
+-#          %h4
+-#            = @user_posts.count
+-#    .col-md-1.user-menu-btns
+-#      #responsive.btn-group-vertical.square
+-#        %a.btn.btn-block.btn-default.active{:href => "#"}
+-#          %i.fa.fa-bell-o.fa-3x
+-#        %a.btn.btn-default{:href => "#"}
+-#          %i.fa.fa-envelope-o.fa-3x
+-#        %a.btn.btn-default{:href => "#"}
+-#          %i.fa.fa-laptop.fa-3x
+-#        %a.btn.btn-default{:href => "#"}
+-#          %i.fa.fa-cloud-upload.fa-3x
+-#    .col-md-4.user-menu.user-pad
+-#      .user-menu-content.active
+-#        %h3
+-#          Recent Interactions
+-#        %ul.user-menu-list
+-#          %li
+-#            %h4
+-#              %i.fa.fa-user.coral
+-#              Roselynn Smith followed you.
+-#          %li
+-#            %h4
+-#              %i.fa.fa-heart-o.coral
+-#              Jonathan Hawkins followed you.
+-#          %li
+-#            %h4
+-#              %i.fa.fa-paper-plane-o.coral
+-#              Gracie Jenkins followed you.
+-#          %li
+-#            %button.btn.btn-labeled.btn-success{:href => "#", :type => "button"}
+-#              %span.btn-label>
+-#                %i.fa.fa-bell-o
+-#              View all activity
+-#      .user-menu-content
+-#        %h3
+-#          Your Inbox
+-#        %ul.user-menu-list
+-#          %li
+-#            %h4
+-#              From Roselyn Smith
+-#              %small.coral
+-#                %strong NEW
+-#                %i.fa.fa-clock-o
+-#                7:42 A.M.
+-#          %li
+-#            %h4
+-#              From Jonathan Hawkins
+-#              %small.coral
+-#                %i.fa.fa-clock-o
+-#                10:42 A.M.
+-#          %li
+-#            %h4
+-#              From Georgia Jennings
+-#              %small.coral
+-#                %i.fa.fa-clock-o
+-#                10:42 A.M.
+-#          %li
+-#            %button.btn.btn-labeled.btn-danger{:href => "#", :type => "button"}
+-#              %span.btn-label>
+-#                %i.fa.fa-envelope-o
+-#              View All Messages
+-#      .user-menu-content
+-#        %h3
+-#          Trending
+-#        .row
+-#          .col-md-6
+-#            .view
+-#              .caption
+-#                %p 47LabsDesign
+-#                %a{:href => "", :rel => "tooltip", :title => "Appreciate"}
+-#                  %span.fa.fa-heart-o.fa-2x
+-#                %a{:href => "", :rel => "tooltip", :title => "View"}
+-#                  %span.fa.fa-search.fa-2x
+-#              %img.img-responsive{:src => "http://24.media.tumblr.com/273167b30c7af4437dcf14ed894b0768/tumblr_n5waxesawa1st5lhmo1_1280.jpg"}/
+-#            .info
+-#              %p.small{:style => "text-overflow: ellipsis"} An Awesome Title
+-#              %p.small.coral.text-right
+-#                %i.fa.fa-clock-o
+-#                Posted Today | 10:42 A.M.
+-#            .stats.turqbg
+-#              %span.fa.fa-heart-o
+-#                %strong 47
+-#              %span.fa.fa-eye.pull-right
+-#                %strong 137
+-#          .col-md-6
+-#            .view
+-#              .caption
+-#                %p 47LabsDesign
+-#                %a{:href => "", :rel => "tooltip", :title => "Appreciate"}
+-#                  %span.fa.fa-heart-o.fa-2x
+-#                %a{:href => "", :rel => "tooltip", :title => "View"}
+-#                  %span.fa.fa-search.fa-2x
+-#              %img.img-responsive{:src => "http://24.media.tumblr.com/282fadab7d782edce9debf3872c00ef1/tumblr_n3tswomqPS1st5lhmo1_1280.jpg"}/
+-#            .info
+-#              %p.small{:style => "text-overflow: ellipsis"} An Awesome Title
+-#              %p.small.coral.text-right
+-#                %i.fa.fa-clock-o
+-#                Posted Today | 10:42 A.M.
+-#            .stats.turqbg
+-#              %span.fa.fa-heart-o
+-#                %strong 47
+-#              %span.fa.fa-eye.pull-right
+-#                %strong 137
+-#      .user-menu-content
+-#        %h2.text-center
+-#          START SHARING
+-#        %center
+-#          %i.fa.fa-cloud-upload.fa-4x
+-#        .share-links
+-#          %center
+-#            %button.btn.btn-lg.btn-labeled.btn-success{:href => "#", :style => "margin-bottom: 15px;", :type => "button"}
+-#              %span.btn-label>
+-#                %i.fa.fa-bell-o
+-#              A FINISHED PROJECT
+-#          %center
+-#            %button.btn.btn-lg.btn-labeled.btn-warning{:href => "#", :type => "button"}
+-#              %span.btn-label>
+-#                %i.fa.fa-bell-o
+-#              A WORK IN PROGRESS
+
+
+.container
+  .row.user-menu-container.square.cccenter
+    .col-md-7.user-details.cccenter
+      .row.coralbg.white
+        .col-md-6.no-pad
+          .user-pad
+            %h3= @user.username
+            - if user_signed_in?
+              %div{id: "follow_user-#{@user.id}"}
+                = render "posts/partials/follow", :locals => {user: @user}
+        .col-md-6.no-pad
+      .row.overview
+        .col-md-4.user-pad.text-center
+          %h3 FOLLOWS
+          %h4
+            = @user.follow_count
+        .col-md-4.user-pad.text-center
+          %h3 FOLLOWING
+          %h4
+            = @user.followers_count
+        .col-md-4.user-pad.text-center
+          %h3 POSTS
+          %h4
+            = @user_posts.count
+    .col-md-5
+      .foto
+        = link_to(@user.avatar.url(:large), data: { lightbox: 'asas' } ) do
+          = image_tag @user.avatar.url(:large), class:'hah'
+
+    #posts.transitions-enabled
+      .row
+        - @user_posts.each do |post|
+          .box
+            = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?

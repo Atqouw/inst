@@ -1,0 +1,7 @@
+I"Å(function() {
+  $(document).on("turbolinks:load", function() {});
+
+  $('data: { lightbox: \'asas\' }').lightbox;
+
+}).call(this);
+:ET

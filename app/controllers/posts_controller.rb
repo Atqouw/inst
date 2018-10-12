@@ -1,9 +1,9 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :upvote, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :upvote, :downvote, :edit, :update, :destroy]
   before_action :authenticate_user! , except: [:index, :show]
 
   def index
-    @posts = Post.all
+    @posts = Post.all.page(params[:page]).per(3)
   end
 
   # GET /posts/1
@@ -15,6 +15,15 @@ class PostsController < ApplicationController
   def upvote
     @post.upvote_by(current_user)
     # redirect_back fallback_location: root_path
+  end
+
+  def downvote
+
+    puts '>>>>>'
+    puts '>>>>>'
+    puts '>>>>>'
+
+    @post.downvote_by(current_user)
   end
 
   # GET /posts/new

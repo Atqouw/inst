@@ -1,0 +1,28 @@
+I"è(function() {
+  $(function() {});
+
+  $(document).on("turbolinks:load", this.afterRenderPage(function() {}));
+
+  ({
+    afterRenderPage: (function(_this) {
+      return function() {
+        ({
+          initializePlugins: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+            return _this.initializeNivoLightbox($scope);
+          },
+          initializeNivoLightbox: function($scope) {
+            if ($scope == null) {
+              $scope = $('body');
+            }
+          }
+        });
+        return $scope.find('.nivolightbox').nivolightbox();
+      };
+    })(this)
+  });
+
+}).call(this);
+:ET

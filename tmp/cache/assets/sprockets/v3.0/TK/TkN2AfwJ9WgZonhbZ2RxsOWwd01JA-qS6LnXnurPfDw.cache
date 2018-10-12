@@ -1,0 +1,7 @@
+I"o(function() {
+  $(document).on("turbolinks:load", function() {});
+
+  $('.foto').lightbox;
+
+}).call(this);
+:ET

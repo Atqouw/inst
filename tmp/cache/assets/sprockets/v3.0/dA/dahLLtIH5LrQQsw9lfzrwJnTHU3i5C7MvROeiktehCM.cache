@@ -1,0 +1,33 @@
+I"Þ(function() {
+  var LightBoxPreview,
+    bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+
+  $(document).on("turbolinks:load", function() {
+    return new LightBoxPreview();
+  });
+
+  LightBoxPreview = (function() {
+    function LightBoxPreview() {
+      this.initLightBox = bind(this.initLightBox, this);
+      this.initLightBox();
+    }
+
+    LightBoxPreview.prototype.initLightBox = function() {
+      return lightbox.init();
+    };
+
+    return LightBoxPreview;
+
+  })();
+
+  $(document).on("turbolinks:load", function() {
+    return $('#posts').imagesLoaded(function() {
+      return $('#posts').masonry({
+        itemSelector: '.box',
+        isFitWidth: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

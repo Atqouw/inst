@@ -1,0 +1,6 @@
+- unless @user == current_user
+  .col.align-self-end
+    - if current_user.following?(@user)
+      = link_to "Unfollow", user_follow_path(@user.to_param, current_user.get_follow(@user).id), :method => :delete, remote: true, class:'follow'
+    - else
+      = button_to "Follow", user_follows_path(@user.to_param), remote: true, class:'unfollow'

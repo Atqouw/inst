@@ -2,7 +2,320 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="038513d0-ce61-4f66-98ec-ed23e7148351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/plugins/infinite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/javascripts/posts.js.coffee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/index.js.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/partials/_like.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/posts/partials/_post.html.haml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/user/avatar/3/aDV7QAqZmsk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/user/avatar/3/medium_aDV7QAqZmsk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/user/avatar/3/small_aDV7QAqZmsk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/user/avatar/3/thumb_aDV7QAqZmsk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-A/-AUBSW7A81_4LKTOXrg19Ersw_hx-DaGwVBpQp1Y6ag.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-C/-CEstFjtg1TxeamuEkWtsnZIp_hFivb_wc__Hplhcyo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-H/-Hf9ZVqzAMWRRZnJoCYJf7LUwU3tNWPdbaCQlb2osI4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-U/-USwDe9ghEw9e75fps2rgyKlZOh4LdmHQ5FN86-J5ao.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-j/-jxcQ0rYz3yw0D9V7-WBUNPqgtqVr22jzEoMR9pUbGU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0a/0anyVnJ8Uckz4fXn9nuvbqjWsdVpUnKuINEJFt_54ws.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0l/0lstODLny-6MBdT6aKut1gPf5OvRs1A80zTLMzZR8aE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0u/0uenj47uvUAy12F4tnXZ8HYyvNL7EfsomWMC2ByrRqQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1F/1FspoWv-TBirs0-oyzeAhNvj0oz-ihepCnNsbv_S8zc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1K/1KJa8OIMJdLsCSKakhznS7pIwoNIls86aAR3n3tpiEQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1x/1X5Wu1qwfnSgZLAnTWqqogCxg98r4FE3N8OzTUj_eBw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2-/2-DaMOIaj9wQYvIybKRS9NC_sKndaT8sY-hVCdRRy8Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2C/2CUu1zLS35MxQ4hWmGL_upRwzgbi8F4Ta8MZKREE_dc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2D/2DFYw7vfLEGN6mrtm2KxEmZ4MmEaOavqR9yymSl6u7I.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2N/2NqOX_5SeAF5GNoLc7oV6ni-3_00TeZZz3RMwrIb6lc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/38/38i8XtE_HkFqYsnjmH5bDQhl9km3ybiWVvd73DJp3RE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3J/3J1B1YGN8vApsJGb4OOkAfV5Efxqk6HSCdQhLEcsqXM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3Q/3QkiLYVLR4WOuMI0HqBwsIUN3S3fEA8QKmceBfEoCzI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3V/3V2eVWHz95BCqQ-0s9XONTX0ogn-A8YNdRtRllF5oHI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/47/47Bk57rGQguedXZwDgo6k0qFc6sd9GHyGsCUO8stsPc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4C/4C0UF7t9IGOrloqFm0pNTZZciMlQ8WGS2s-jUK4s_c8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4Y/4YT8Aug6GpAAGg16COrO_S6y-Wy2YZibHhS2FWm-sC8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4e/4ePw8vbybYRSJBL5Ok5IYhV3NN9vb6JcEzK3g5l6jL0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4g/4ggWQWCKLwQDSEdRqtlr5xnKT9lH1tEJJohKOCpstPg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4q/4qqTKW64B9t4Op0_N5pI6uYfYYlC_YfUPXOXfXDsQzk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5H/5hzLW0uTe6xrLK-MwXRtnYlslFKAtZ-FCqtMUDO00FA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5J/5J13FKHnfpO1eqxVIyUBTDjLdUz2S21J4xMXH7NfqAE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5Q/5Qv2LSCWII_uaem7yYOGAGJ1uEXs9vmzCatz3ySQvRQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5f/5fQ1sqMTG9t-Huh_b2AnhMRlSTJ23ikRHyLkf361i5s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5g/5guEDfiqP0gNol7cRdbVWyUcaA5a1Gb2beB6RhmQEuo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6e/6EUvKffjrEZNSxFmoGFfpJ8Q9VNtm0DqTT2Nzy0u-Wk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/89/89Bw1hBJbsMH6BRRxnrf1EIRLjLocPQiPb1IfXIBw-Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8E/8EClNTxgowiB1jw0H3gJgZIA0myijosnNQZmwkKsv7Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8Y/8YDe4FSSQ7E05HgGgNrvtI663fqMa37U64Xvxnr_41M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8f/8F2VT9JzmnuH4RalWI-RBpXxEGUTkVobG2tPRpnepH0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8i/8is48SOl2q5qwsKJOvtNSFkMfg-3crpkcjebZSGT1cU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8p/8pm7FmEXYdl4gU9pEiIz7husxAw7dYpXgl-mYnY4i7I.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9T/9THbfHR20I4SzaCYBLZIFT0PAM9JDYQjwcUeausxdAw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9e/9ex5DvpyqpCOe_LnkbffOqQ708g4rR2EqJ9fkfRq2is.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/9p/9pb3Q5I0-ZSNNneVbxIih4EoUHpc7i_DWcOdkqkhE1g.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/AG/AGbekMmF-ES1A5RTyidPGZTNHlRYkjkWgX36HfeQR68.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ab/aBBz1-ZmAvcpmsSMfAgdAUOSuWAEIwAt-reOhucO5MM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Am/AM_d4VLrGj-vY75-hBF9HmjYR2QNKY38RaVWTz6qwmk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BD/BDGBwVCIz27kfoPJFkfjrds_slmpoDEIJmR9JmcnMK8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BD/BDTIHMG8yOgA-1KuDMz5QrEJ97uF9PHaL1XzjILeXMg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BN/BNVrsfU6lfSTXNyCRf1WRDpb8HD1PVCIXpwHO9cviLM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BS/BS0Y_Z8KtLHXMdCxd-p_Q0lZx7z4gDwBIVdqwCQ4VM0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BT/BTQr34xA3iw_j0Z91g5jSKKzWHkB2bkQ0JQqLTRfuzk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CA/cA2a6HMmaSpfwGnsWHDa7eJrxhhrTLYnhbzntVm14zA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cz/CZQXYq6oDr6uhTQ6ZU0DfwfBt1aMuyVU9RZTIJYRF94.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cz/CZRUU91zBGb5cO518ICI0q-WJpUtJY9zVviEBQ0n1LY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cz/CzNM5N7aFBYmJYf36aIfXAgGMnQ6Q7L-yI8IYDnwGjM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cz/czo9i1geY6FtkFGSe8jz9kqq4zB861Li03z55Jd1vjA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DH/dHkD75LT3vFwXHEddlgyIDCKxU0dprP8To02Zb8dhQM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DW/DWT2e3Y3jU2fhXoLS7vDfu8eP5T2PHx_-1gwMDDjjOY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DZ/DZRZmulsvc4Z8yM2mK70HcL-FW6dovzlHg5M_qOa1DM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Dx/Dxo5Hn8w4XNJlleJSN_DsbI8kNGdHEiHtdWHf28Hq9w.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EB/EBxOnW0O4_XjuBAqUf_h9d8rumvOkXtDrpNgYggLYiM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/EK/EK3e05yZSY1urbL8H9eaOlhZMCneKXMz9nFuCIoSk30.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ET/ETR-1dOttk_QmoMfdcyUglE33zLivGBMebqfLZAa3hk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FI/FIGWDoOTxfvb1YqI4JYaVtLjsVAJGk_QEg3Qz8KvvNw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fh/FhmLY-9Ra5bp5uOa73B05YrHo6Rfk92_0DPudpUoYkI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fq/fQJCEjFQ36LHKXTYmOltC0Qhg_zscz9cX6PYD6fXVic.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Fv/fvaMiDQAWIcibJevRMsaU-vaFT--Whatz1QCorA3lyI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gj/GjhAjD8Xh0NIP7ZsJHogYpxTCc5CkgHhXYKyYtyHY9Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Gm/GmvndTnU5KMMzN6F3uyrdnUfBz6pN3vNg0Xq2TZiW5Q.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/H3/h3n_Vfw0uPwZZ0XT3rZePvPjPQj-azQYdfOdxdtS8yI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HT/HT7QNVeWdsX7iXccoMFgVcYgGfXWWZy9Z_eFXnalkvo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hb/hb4zBtIz5KAkvHXR6K26t2nLPkdd6ih1ws_YjKGN76s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hj/HjuQtGCyJBy6bT-vucq3VpsXe7W-tEg-DDLVpreDgSQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hq/HqZu_u67HdcKoPBxVwmlUow5GDcJnqGrEilBGzgF9Ps.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Hq/hQkqW3wffMAtg2WE4zI6VKmsMFZNbm-M7yH9zgMYh-Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IW/IW87t68s8jydMNjT6VATS13D-z3csU-LmxBYW7gYhYc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ib/Ibgm4EraOxfrzSrW1TjAnkV7z9qBn5zjDkbqyT1xXyo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ib/ib5yzTxe8LsjpbVwYQNdeQHu0UYzShyh8wApWTfoXxo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/K1/K1zhx5GQwRGtgIYCuE5d54FD9EgwElHetW7DH3fqzUQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/L9/L93rdNM3wbmY30sUluSjysaaihB8-CynHgHOrAMS6EA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LB/lbPX9WTNYj2vWtXWGinso2G9RbZ9BoLNO94jsvgktrA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LB/lbXam296aWSME_zU7Nosxyd9w19GcP1unSiS_-gXajE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ME/MEcYNCPsiNbE0i-zd4r5ToQFYyjJ75zgDZ1GSiV9uYc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mv/MvIqAtiHj5uCGqKTZ4_Sbe743s9JRqKE8bSzHpVkLaQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/N6/N6ka-RKt8qsTemAstmGLdt2L3yHBVg6RmeU_sKll2Jw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/NW/NW3FIgj64wKUhOM5SNGOWykoeOcbWr9QgDe-C6n_iiU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OK/OK_jx9SX8R81J0S1touaMc6d00ByLPoJUUzrrGU2Z-0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/PR/PR1Cfex3B4L6CTd5yJWnfltyhHrbpSkZMlf_AK1rRfA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P_/P_8biMpVE_3m-w1OJHgQNqb4vLXQE-HYcS_o-eoLa6k.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Pg/pgEL_KunD_H_QfL8Ah9t5FbFFmlLsnt_po6l2L02o9A.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q1/Q1m3tkizXVSvVxI6YvMoTVTTjz1mQdiO8I7bmHtF6kA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QF/QFdFqfpboDYuZRI8cGZFcUymDPYLqbLLlGczt4s_sro.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Qd/QDSP05hkteheZ3_jMQiVqXyuMYxii5XWOsdmx_Z1-Js.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Qy/Qyt0cVseEVas0OdzA4i1_ub7U870hN_1inwUtS_de2Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R9/r9bFeBH0d16ieEcQVKNZuTTOuuoH-AeJByWDLY5lNzo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/RX/RXEKFXBPshGNgKhGLz8YBERPClpJ-B9FluXvVcin6y4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rw/RWCqukpB0RfizWklwGBsGf0zSnmY4nld4wwBluD7jt0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Rw/rwzG0wAWGwasV-AS5tRfWW5laB2Pql09Erm7tCpo848.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/SC/SCw_kReioVLWo1eRmEdg8EnXpkEoyUj72ogv_arRV2M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sd/SdSHJSg7NgHEhbo31DJp6_hpvfzw8RRamYM_cTKJHDE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sd/sd9uD_dSpjwx3Hyfs2R1zHdquWoYEw-RxJaNiMTdlSQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Sy/syScubFXYvVkcAnmNpgEpGL1LmGp9P0dps9YkIKppUo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TD/TDEvpvnOwpZ53NtPZYYp7nLRN1Wzcs31YM9AldiFcJM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tc/TcByd93OaMijWMwJgMoeIWYoxsebVCNvFpdUvM2wi5E.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tl/TlYuWHWrd_TEZtX2raFAHzcNUFJ9Rmd3PN3Kwhs1aXk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Tr/TryHUrfCAOcrNZpxYmER4Q8_WCgg_I75KKYFdSMjrWw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UU/UUB_wza1sQjWmwieWkVPhk3_xI1-GwQs-XqW1rwDvbc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UZ/UZ1xXq5a3ra1WNxIOgW8ArOXlLXrR5MIytsZSuLepVY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uk/uKd85qw8s9qO6zd0fY45dpdK5dJEizgaomD4pDKd3xQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Um/UmBXW9ey9OhsgEtwoiIgSGOFJ8AmLy1P7nKkm-lq_zs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Uq/Uqs10qEes0cPI57cDefypEKyeROw6h8NVj2wtIuVlAk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VN/VN3bL3vfUB95XUuAFR38No1YfMLZ2j15yTXaWYyo3PE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/VO/VO8NF21YQK8WYaULJkM30_IZK7ab7rJxr3tznP9Pep4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Vx/VxcZHZZycq21RIXzc5N5TcRq56LO6IXsb_p6hMqJb1g.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/W1/W16Msxh-zF5FYnZ0e3TrMdM4mqgF3tX1Gz1nHSDl36g.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/W7/W7pWGGZ6o7niO0IKNwDamk5Zc13eL_Hae_VGmWu2-4A.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WX/WXlmrJOwrbY_QsizccuUvMPpRus4ipblkvcZbN7WTbk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/WY/WY_DV1oXpGevw_MrP5aCXMV-Sk_-RDi-2YuYfZxDcA4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wv/WV_7wjkf5odmR5HyiKzxd02yZHAECrxwvsR94a0RJdg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/X1/X11URByCtw_TMumPTyfnxeS3asNaatmGNsoMoPXpmFI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/X3/X30jP1QI4_19WcFeeW1jIZcqDEfYt-3fFJZLgH-HKsc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YU/YUvtQ8N08XNQ-H6SNbk4yh-70jCoRfr6xXIWxIY2L9Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yh/YhJSdIYOivKRkSFB8tkq38588cGTSVwO7XaWE3dh7J4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ys/YS0XJgWv6c4egd-aABmxHGwy9GUCBawM5euC5YbCJUk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ys/ySofUNxKn3y_z0H0MaWpEobSZAQ1MYXQI1rwG0yZgJk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Yx/YxeLIkpaKklUIrV-tzVxz2TsvgFsa7ybXF7pw0f-Mek.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZA/zamQGySEfWFdZ_Ck6VMe_5O6RO92KAoeuI-YnJ1V2yU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZL/ZLbZy5FajGRQgebhjhPpsBZbhLR6IfI4hXxayaUp19o.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ZO/ZOZe3cIBqKzgE8OHEdPyU6Kr-XaHKhbE21xc0paVHn0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zv/zV7r7ZCUgbZkafvGIYamJG2m3dTtMGhxyXqH5APUQBI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zx/ZxJZzmikEcsX4nS3mAZBKTVkUtdBL7QjL3oPP7xb4Q8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Zy/ZyLUjgBZEW69SOQI1OvcuPLab7bQFfpozCYeIfpz-yo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_7/_7Ix3FMbIW1AOren_jMEL6n82AC9cbSiqmFNkNRyRu4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_9/_91hrnxGNjFmwIrunYhQZytXPGoKMuS4iS7iqGMSTgc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_E/_Ek5kVPONDYB9ba7NEhVO1BYvSgMnAct7nhkAMfbRng.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_w/_w-4Jyt7Fp1XhJrEpgaW5dMMIav-GiriPR8e05zDE0A.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aOAwOIHXDGcpqfo2-PxL7I4Dizj07OZAjzyz0sIt_1o.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/aO/aOKt1QzSi3IxwxIi2lGBn__W6ddN3vUVAx1i1YKT2Fo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b_/b_6sqAZLjy56uuCn7eJ2MhhzMNas2XR-THzZu6lX2ec.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b_/b_AtQTZy2KtORfy_QbW_8N9PkLUhrWrW9PU1thQlkfY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bz/bzKO6NRf66h8IPLW09-Sz3VH5apYS1GcX4vW5KNDwVY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/c9/c9epUxsO_Ju6i5OrtGn36UHOX8Vrgw7QYGwgLOc4kas.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cd/cdolq3Lfqf-VxAOkbKR3yFTigzdepr3DoS68AfDxq5E.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ci/ciMULIjq1f-ot_w62wuGKcmzQDnv0PNwJlOcsMYwlGY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cu/CUOaAlA7y0YbuIVUfSBs3A6Z9Zs8dTt4wJhDoepRSE0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/d7/d7QeS1z9TVtckDdP0aaOLbLBvpU9rQSnnEs-6s54I2M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dA/dA5YZreJtWsPGk3FjZoKrc-mpAHtGe5XqY-_KVrS10s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dQ/dQ8Z9Tx9YOwcG4SSUSAFYB8YMaz-ztQXg7DEmJr5vRo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dQ/dqDsIX6zzapz9RbSSNPiybiRS65NYFttuFt9W3NxmpY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eU/eUmDsfSL23vxmH_hnPo1l6tvz4pdQZJMWPFEReRrUHk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ea/ea4KEK6n7_T7cuDo8ttC8-go7kxjBkg-pbKvWjxWfY8.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ez/ezFv_sMJ-SuoDHx0oxphw4VYiEl67bztv7EclY1PC4k.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fA/fAcNkFUKHQIQUq9l5Jis0j3DFVXhYNJKZzfSV9NBiSQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fO/FO2FHQ17M7VwA0iSWxl3pR6AXXpYVil85u68a_zkdwE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fd/Fdis58u2Qbhcwu7c7rmyF63NuJP7hg-vc8gsBhbfr0M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gc/gcI9jSR3NPI_dFubdqBF48gJ2eKZSh1UvaTjXiLhh0I.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/h-/h-t55YNoyLSllMhFf6tXSwkXwgK8V9LsRuH95NtetW4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/h2/h2RPVvNom8ff-IO7g_fcLQuzQXn4WFS_h68UWbofaaY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hD/hDJP2e937V75LyoujVAMdYnLnqrPn1yiHA1aebvF95w.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ho/HOBiHgpSgmw6N8mwiC6GPzb79Q0OnNrZ9DAJpKH5NjA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hw/HWkM5peQTNsXoGnTg6YRAQ9gIoV2tyROEYgwvBHxeUA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i2/i2Ls13yM0RZ6k4p4Ld_-PtHNOI7rhQDLtFwAhlz6_ys.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i5/I5qsEKPetp5XQRpWij-mL2g96pKuYf8SDHtwDRIzy78.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/i5/i5-sqXQiRrWpHO7fnjBO70ijVd2w-fOnyBqpdrtmr7k.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ij/IjGlLkjKrHUUlmehqocCjDU0l8hjPomQr8EoXga2Rtk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ij/ijnQTSeAWCyoTGTrYO5l0CvyZwpFv4LadyfE_fM0cI4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ir/irilh_MJq2-A0T5ZcKx4ZCkPx6qWNGHFxyF75XT8bkk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/it/iTlKjKVHTX8R67V3OzTShHw0czhs8Yv4ExBEZpYUZyI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jF/jF0Hhaz1nnn2ji_rTb5BfPwCCkGxB5lXvuP3GNAmxHM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jM/jmpvZh4cfRCXIrkiZnUSdAfdLKCeMnqFKImFzJ29hUk.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jX/jXnjlGbwJT32hePAjCGdVMpu5gbzr8OfbrjkS_kuHTQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jb/jblTNJf1r1SZKXvbNqyJHSFkVoriVspz8g6dLHJyKbA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ji/jIGZax2zgBmDGcXZR_t38yyljM-5D6a8bzx5rYNobKo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/jk/jk4HUjU9ZACGkmHhp6nOzWsSYE0Nt00BSvGY3g9NlkI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/js/jsc5qhInLzMaXFHeRvi-Fp6izU3YbnS-bGZWhVIuphw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/js/jsdrdmgZx4Z9xOWBnHkEIYhtaC1U9W-_UEkhhb-i4rI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kB/kBiyDtpNAWsrFIxYIrBIhM34Yz_aTGQD7lxcpaDEceQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kU/kUeFBMpNp9TlEutajAHOytYHg27f0CBSiACtSjuXe1g.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kg/kgLDyZuDY371LxnuKaeYaNA9t48yjQJlKcXDYCwQoag.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/kj/kjxW42AcHvZtcv2Q5N1hsv4G9tZdyrfEXf9cktXOL08.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l0/L0Jt_pUQv4Dn5Cl8WUjqXwJgToMRaSk1z3Ob9SIdUe4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l0/l0crftt7FeAMAw2PGv6stZKK4ID4qmQmdA2tt44P25A.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/l7/l7MJDXGngs56VDG1jkpyHALB2XguZCTuEdBtlKaQovg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/lS/lSdZtM9ovdThri7Nz0YA1TxSXCyvVbka0Jz-od83F0U.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ld/ldWwEQ_KtRU6EpkV6iAm25OaxtpaKs8BuqnxLsAtR-o.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/mF/mFfHrUXThYYM-tGYVN3iBhbVBrZjWVw59fSbD-7zIVo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/mU/mUNWgZlOFgJu3hx74__GvesVA9CKGkO7IeT3KknDQ5M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/n-/n-pjxRo35S6gBR1mkzCWW6B8dsimSMN6fMa43IhYOdw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/n2/n2x16F_h2SU5KXQKWxKYbJW4GA14mO1eDqDIXFTEyac.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nJ/NJVGZSmEHVGLNNgPKj3tAiXMysPZPmFhHOEsRzBIEzM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nL/nlFobZj6RP1-z2uPeLmLSmCOojaR18Sk-ok1Y3f1dzs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/no/NOsK6Dh-KmzOw9Tj8SbO6KmU8qUAu3MwjLCvw4_OKCM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oB/oB5OrsHwDr8lJaRrFO2PEcOc_JQmsJj2O4USCEY-kUU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oP/oPaN7b1mlmYfvISkGhjMRn6ULa-9ef5ZuJtx3QUaQQw.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/os/osD-bxC8e8E75yLBKSqL9G2HUt7lXJ7v_diPmxRjY1U.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/p3/p3R5ZdpiOOhxzU28lKBe4xygUuYQoNXk1KoqvwjcZ1M.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pW/pW5soLaTG0BGKQzZ1SuNq4BDzOJtxGkwWm78DbJMcHg.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q2/q2bGpVvHH1hjAkXnzrBvPDxNr3tBGDwQtqCjmN5g43o.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/r6/r6_xbFpRzGJyBxfC6GaOKXR4zNUrVBYmPRJ9wRX2kFI.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rQ/rq73qVo6tL9wvUTP7QEykaL9BlJoqVyqtTlZ_aux3m0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rV/RV2CqpBk6lM3sG6ber_I1qB3J4Wc-AEwgii4kGh2Hr4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rn/rnxx-0O7I4uemAlPoQ4O6AUxjVtYFrDf-wJ9w90u0f4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rr/RRDdsJTkUtX0MDsUuQTigMpHFQwozzVgSTFw7UhaKxs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ru/rUtpvLMATcVcvtRS4SjEdElut9DPs0OWD31d9Dy_GLo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s2/s2TU3iBT_LtGzXgQDiwDRHYj-1PCdiHT5KQLCvbr1VQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sN/sNcE39VczA_gve4aSXM4MUX5TyTSeh4CqaoApK3yKxY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sf/sfObJ4ZUQfRBBhIHXENEGl2CbpAZKZ3Ua5LZpqY5N5w.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/t4/t47j1HlgaTWL_tCIWnjlgTxUybVDKL931PSBFnFN8UA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/t7/T7Flj4YopH-rURY-UadIH7rmUJR_bm4gO_8Pzy_4AS0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/t7/t7kGImvUQxuFQkYYL_nWcmUcxejOab65wye3_5ega9U.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tJ/tJKizQxy3oXqv22jfGjbq7yMJ3GD8vtqDjIhXniTCM4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tY/TyJjlwXhT7yFTTHWTn62ofNLvArDbHLHysA_pT0L-_A.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tx/txBkAxTOPXMYRAtPOyswd8L4Y0qhl957B_laUObvKg0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uA/uAOVsNP2-XS6kjAa2lsKSuTZsMQZuw4neh5TrS8rrsQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uW/UWfSSR_BOiFwVLm7MTcQ3tWJ10XR4oeFXR0xT9wPixA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uW/uwCMSdCvNICPV0kEL46EuSpqPbfBRPCN87n38oWObOU.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uX/uXtottyjZbaREcjSguOCL92aKxvRuVn3cLrxHzBRXlA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uY/uYMdNM23sxVE2CQC_lU0u3NlnvfI1dDaZms6BGcG5uQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ul/uL5q1Orqyci1q5XCFNYPq6xwD9PvDUrfesZKsZmW5OM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ul/ulNe7jllXr2HbMlGK3vv921mJVGZWy81t9pcSWS-OV4.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vS/vSD0tUQSPoEncwabHqWpqydKfcEEf8iQR4k1MhEJqng.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vh/vhwmaqlzwVk7IzIJleDUFRgyBpuxQYP1C3tIdNSjlqM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vw/vwORFnP5TwpOQBrUXFeR3pZxJbiNhhDt5e0bVzVn1WY.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wA/wA_07AUs7t6RESQiYD6bPaXmrEjmMldImFKW7miX1Co.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wL/Wlp5ssOkQl8pZsmVbxnVPW-cFRdUVgZu793WMKH9K4s.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xO/xOU16PLZJnNcm4E6ZOCaLdZm7RNWXlWzV4_k2EeZRcQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xz/xzjOhjQfPQ_j5m3nkv98udqTb2EZxltGHrs4ug3n_8g.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yL/YlaeyHVzRvfNM_p3KmuWWndbCKtGlO_mapRA8b_X-VE.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yp/yp-beKDnVSWoKXXaPBsEpjuPvcgy6l2lhlzTBEDGWO0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yz/YZUUaoxSYo3sNBM_ixFgvkpNERr_SuQUaWuGgjJ7EZM.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/z4/z4LQ25AVUOZcaMSSxg41UcrvzQNIcA6ZzdbYQm74b6Y.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/z7/z74hjRm5kbZagfE-ebaqRTEq3NYrPpVTaQA20kJsbX0.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/31/de3fc11e6af72f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inst.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/posts.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/sign.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/sign.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/users.coffee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/all.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploaders/avatar_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/avatar_uploader.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/edit.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/new.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/new.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/partials/_like_template.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/partials/_like_template.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/show.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/upvote.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/posts/upvote.js.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.haml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4n/4nHDH90EoRWhOAfQKHFCQ00BE4SaLtl9OaGziBPGycM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4n/4nHDH90EoRWhOAfQKHFCQ00BE4SaLtl9OaGziBPGycM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6-/6-XrCr6jJjL6dEeVVjLoHpBe4c24WsQFQG-3pLUBLqM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6-/6-XrCr6jJjL6dEeVVjLoHpBe4c24WsQFQG-3pLUBLqM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6O/6OCs0DIYN2jHqidKhfuac9k_ABPQ4aiLbYdFX9LzANc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6O/6OCs0DIYN2jHqidKhfuac9k_ABPQ4aiLbYdFX9LzANc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6k/6k5uw4F_5l98-3o1mr40IoFb9aLkLrk0Lsa2ujQEd3I.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6k/6k5uw4F_5l98-3o1mr40IoFb9aLkLrk0Lsa2ujQEd3I.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6p/6pI6NxfaDzi9smSILwcHcjTHF5nvSeORjpCHv0hKhB8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6p/6pI6NxfaDzi9smSILwcHcjTHF5nvSeORjpCHv0hKhB8.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6s/6sW7FdTzHcsztJKwmuSbaVOz9l4m3Z4jjlIxgl4pNz0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6s/6sW7FdTzHcsztJKwmuSbaVOz9l4m3Z4jjlIxgl4pNz0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/993TcaNYBjEW-rIj_OvIqNtL7iGMo0RxMSXE_UIEdUc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/99/993TcaNYBjEW-rIj_OvIqNtL7iGMo0RxMSXE_UIEdUc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CC/CCMvzMDtGUVs8oHQ0Cr8NZTIUxk3sT3cSyuHFmgJifA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/CC/CCMvzMDtGUVs8oHQ0Cr8NZTIUxk3sT3cSyuHFmgJifA.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/D4/D4Oh3AXx2fUysUDLEJSToVm7R8io7BILPPsaZv7ul2s.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/D4/D4Oh3AXx2fUysUDLEJSToVm7R8io7BILPPsaZv7ul2s.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HC/HCDOUd7-S45aJ_PjVAC_Vmjyud3i1aQv4cE3t9_Z3Dw.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ii/Iiaj-WEtuk7KvT-lg3l5F_BQZwkOQGhx6GtbdBZyCME.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ii/Iiaj-WEtuk7KvT-lg3l5F_BQZwkOQGhx6GtbdBZyCME.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J4/J4T4GygSmEljfxjIdAlFsTFmsc-OV-ga5SSEI0YIVdE.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/J4/J4T4GygSmEljfxjIdAlFsTFmsc-OV-ga5SSEI0YIVdE.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JT/JT7MO_lsx3_waT9NkI3eV-kkHkVJkqGlVtnUF6C_TvM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/JT/JT7MO_lsx3_waT9NkI3eV-kkHkVJkqGlVtnUF6C_TvM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jc/JcAl0nreFWLSpZ379IIPMnL-gr9Vz46ET0HTbOYc8MQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jc/JcAl0nreFWLSpZ379IIPMnL-gr9Vz46ET0HTbOYc8MQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KD/KDWBnfw35n8053R5NXrmLC8Of_6Rl2GOG3Ux2aDGMP0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KD/KDWBnfw35n8053R5NXrmLC8Of_6Rl2GOG3Ux2aDGMP0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MQ/MQtXaqtArAmKWBc6Iw4tLh0ttfCzz7Pa5eHXkGL1agg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/MQ/MQtXaqtArAmKWBc6Iw4tLh0ttfCzz7Pa5eHXkGL1agg.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/NF/NFTFzXHg2zYBPkfM8rLy_Aj3mQiFau_yAj-C9Da0CWo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/NF/NFTFzXHg2zYBPkfM8rLy_Aj3mQiFau_yAj-C9Da0CWo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oe/Oemq1NUHwj-zGaHpJ0fOkYqKKC2T6J9Cm6tdgpHssN4.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Oe/Oemq1NUHwj-zGaHpJ0fOkYqKKC2T6J9Cm6tdgpHssN4.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Qg/QgiZ_wzRcb2rlAI_gfHuXn2QtlG_vJdP2czZTf7fbH0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Qg/QgiZ_wzRcb2rlAI_gfHuXn2QtlG_vJdP2czZTf7fbH0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R1/R1XzZfkoQEJCYdXSzWgJcfh4Z8t05Ww_-UmizEq78mY.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R1/R1XzZfkoQEJCYdXSzWgJcfh4Z8t05Ww_-UmizEq78mY.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Si/Sin6bEoASrNa45108CpfgF2jcifz-KpbsvvZJtqVZ68.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Si/Sin6bEoASrNa45108CpfgF2jcifz-KpbsvvZJtqVZ68.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T9/T9XuD6jgmI_oRJOc858m1SHSgqiczAvR0XabHXomZU8.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/T9/T9XuD6jgmI_oRJOc858m1SHSgqiczAvR0XabHXomZU8.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UO/UOjN_bAnbxJU8qeS2ySb725tfIfvCoU1NgO9r5oU4Mg.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UO/UOjN_bAnbxJU8qeS2ySb725tfIfvCoU1NgO9r5oU4Mg.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YM/YM49mp-vZUTo4A-hlhJ1KuuJUsD5V-HwtZUQVdMisXw.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YM/YM49mp-vZUTo4A-hlhJ1KuuJUsD5V-HwtZUQVdMisXw.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a5/a510B284wcLE-Xz4Z72q1Ep5_Xnj9MJPWdOqv60fsls.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a5/a510B284wcLE-Xz4Z72q1Ep5_Xnj9MJPWdOqv60fsls.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bC/bCGgLCTTUuMakSSCCJH-93tQne_FiSViHCziGUtERiM.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/bC/bCGgLCTTUuMakSSCCJH-93tQne_FiSViHCziGUtERiM.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/d1/d1ZiV9T-3F8WvBF3J7bXT0TGOMPIVPUFpUvXoGpNNxQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/d1/d1ZiV9T-3F8WvBF3J7bXT0TGOMPIVPUFpUvXoGpNNxQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ex/ex7AHkbd_3C0KqGAgjqA_loJcUZgL3aq7sr9GoIi5xc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ex/ex7AHkbd_3C0KqGAgjqA_loJcUZgL3aq7sr9GoIi5xc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hS/hSWfJASoOKzSeZkklef8RYAFm-AykAI8abJSf2VhcWs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hS/hSWfJASoOKzSeZkklef8RYAFm-AykAI8abJSf2VhcWs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m8/m8RV6Jib53pxfhAQaiTgUFJpfYn-raiX_ujaG-cnyP0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/m8/m8RV6Jib53pxfhAQaiTgUFJpfYn-raiX_ujaG-cnyP0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/no/non0auOmzKtAVkkElAMgDn6CtyFX_7tYd_NFcA03dro.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/no/non0auOmzKtAVkkElAMgDn6CtyFX_7tYd_NFcA03dro.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qZ/qZCTwBJ9nRn78jyqqPpiMyN_MfF8yBUvLTcJ5eQNGB0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qZ/qZCTwBJ9nRn78jyqqPpiMyN_MfF8yBUvLTcJ5eQNGB0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rV/rV3fVBdmP7wqcQOZa8QsQIE452n-Hde7qel9lWvpuoU.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/rV/rV3fVBdmP7wqcQOZa8QsQIE452n-Hde7qel9lWvpuoU.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sv/svZeQmUrkr6ogGxynsD9nMOnisyEg8Dxn2UeaKsB2wY.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sv/svZeQmUrkr6ogGxynsD9nMOnisyEg8Dxn2UeaKsB2wY.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/t3/t3mBBFOQRzku1W3eSFnxoCwZO89q8W6eyXjboZIURE0.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/t3/t3mBBFOQRzku1W3eSFnxoCwZO89q8W6eyXjboZIURE0.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tx/txQ6buzTggXOkqwotdKsb_cbFi1S_qEo4yWtlhmmKHA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tx/txQ6buzTggXOkqwotdKsb_cbFi1S_qEo4yWtlhmmKHA.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uC/uCJecPsew9a7MFTimdcBKtAnKx4gGHVRfUxOYYPpTvY.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uC/uCJecPsew9a7MFTimdcBKtAnKx4gGHVRfUxOYYPpTvY.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wW/WWPJKCtlJNbKWAfzj-KkT9Dzg0en8dOC78_byw7RQZc.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wW/WWPJKCtlJNbKWAfzj-KkT9Dzg0en8dOC78_byw7RQZc.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wW/wW4jmBzlph_3L-6VTdSePrLm_Xs3dMLwMmtI8ZNK0Ns.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wW/wW4jmBzlph_3L-6VTdSePrLm_Xs3dMLwMmtI8ZNK0Ns.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/28/1071a95f8e1f90" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/28/1071a95f8e1f90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/3d/f1b3fffe713b14" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/3d/f1b3fffe713b14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/10e57ff1149b4b" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/10e57ff1149b4b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/b76e4ab5ca0e07" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/61/b76e4ab5ca0e07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ce/ece289e786014e" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ce/ece289e786014e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ec/f1a488224812cf" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-compile-cache/ec/f1a488224812cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/bootsnap-load-path-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/pids/server.pid" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -17,115 +330,121 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/inst@Development__inst.rcov" NAME="Development: inst Coverage Results" MODIFIED="1536938930484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="inst" />
-    <SUITE FILE_PATH="coverage/inst@console.rcov" NAME="console Coverage Results" MODIFIED="1536939326842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="inst" />
+    <SUITE FILE_PATH="coverage/inst@Development__inst.rcov" NAME="Development: inst Coverage Results" MODIFIED="1539182963812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="inst" />
+    <SUITE FILE_PATH="coverage/inst@console.rcov" NAME="console Coverage Results" MODIFIED="1539081692706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="inst" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="861046995">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="2" />
-          <entry key="erb" value="20" />
-          <entry key="haml" value="18" />
+          <entry key="Gemfile" value="14" />
+          <entry key="coffee" value="27" />
+          <entry key="css" value="8" />
+          <entry key="erb" value="51" />
+          <entry key="haml" value="119" />
           <entry key="jbuilder" value="2" />
-          <entry key="rb" value="49" />
-          <entry key="sass" value="4" />
-          <entry key="scss" value="1" />
+          <entry key="js" value="45" />
+          <entry key="lock" value="1" />
+          <entry key="rb" value="164" />
+          <entry key="ru" value="1" />
+          <entry key="sass" value="18" />
+          <entry key="scss" value="5" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Haml" value="18" />
-          <entry key="RHTML" value="20" />
-          <entry key="Ruby" value="53" />
-          <entry key="SCSS" value="1" />
-          <entry key="Sass" value="4" />
+          <entry key="CSS" value="8" />
+          <entry key="CoffeeScript" value="27" />
+          <entry key="Haml" value="119" />
+          <entry key="JavaScript" value="45" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="RHTML" value="51" />
+          <entry key="Ruby" value="181" />
+          <entry key="SCSS" value="5" />
+          <entry key="Sass" value="18" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="21" />
-          <entry key="Ruby Console" value="667" />
-          <entry key="erb" value="366" />
-          <entry key="haml" value="1217" />
-          <entry key="rb" value="876" />
-          <entry key="sass" value="140" />
+          <entry key="Gemfile" value="49" />
+          <entry key="Ruby Console" value="1156" />
+          <entry key="coffee" value="1172" />
+          <entry key="erb" value="541" />
+          <entry key="haml" value="4405" />
+          <entry key="js" value="210" />
+          <entry key="rb" value="2648" />
+          <entry key="sass" value="688" />
+          <entry key="scss" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Haml" value="1217" />
-          <entry key="RHTML" value="366" />
+          <entry key="CoffeeScript" value="1172" />
+          <entry key="Haml" value="4405" />
+          <entry key="JavaScript" value="210" />
+          <entry key="RHTML" value="541" />
           <entry key="RegExp" value="1" />
-          <entry key="Ruby" value="1563" />
-          <entry key="Sass" value="140" />
+          <entry key="Ruby" value="3852" />
+          <entry key="SCSS" value="36" />
+          <entry key="Sass" value="688" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/posts.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="1" selection-end-column="23" />
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/core/core.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="190">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.haml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/app/assets/javascripts/lightbox/lightbox-plus-jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/all.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/posts_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="246">
+              <caret line="10287" column="13" selection-start-line="10287" selection-start-column="9" selection-end-line="10287" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,22 +452,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="359">
+              <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -158,42 +472,76 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>user_posts</find>
+      <find>dest</find>
+      <find>maxPage</find>
+      <find>destroy</find>
+      <find>gemfile</find>
+      <find>info</find>
+      <find>init</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3f8918cd049bbcdcefe3a8dc2881724e3a5dc30f" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/posts/sign.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/sign_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/db/migrate/20180911182349_string_to_integer.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20180824143758_create_posts.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/_form.html.haml" />
-        <option value="$PROJECT_DIR$/db/migrate/20180912161237_add_details_to_user.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/post.rb" />
-        <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/posts_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/all.sass" />
-        <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/posts/edit.html.haml" />
         <option value="$PROJECT_DIR$/app/views/posts/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/pagination.coffee" />
+        <option value="$PROJECT_DIR$/db/migrate/20181002115457_delete_table_relationships.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181002120025_create_friendships.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/friendships_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/friendship.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181002143120_delete_friendships.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181002144451_create_relationships.rb" />
+        <option value="$PROJECT_DIR$/app/models/relationship.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_follow_button.html.haml" />
+        <option value="$PROJECT_DIR$/db/migrate/20181002155224_d.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20181003194000_acts_as_follower_migration.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/destroy.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/create.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/follows_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_follow_stats.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts.coffee" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/plugins/infinite.js" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.js.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/insta.sass" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_like_template.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_unlike_template.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/upvote.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/posts/downvote.js.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/users_show.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/posts.scss" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_post.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_follow.html.haml" />
+        <option value="$PROJECT_DIR$/app/uploaders/avatar_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/views/posts/partials/_like.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/profile.sass" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/all.sass" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/core/core.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.coffee" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.haml" />
+        <option value="$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/app/assets/javascripts/lightbox.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/posts.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/core/core.js.coffee" />
       </list>
     </option>
   </component>
@@ -215,10 +563,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,6 +573,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,19 +597,15 @@
               <item name="inst" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
               <item name="inst" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inst" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
@@ -285,40 +629,50 @@
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inst" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inst" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="rails-assets-lightbox (v2.10.0, rbenv: 2.5.1) [gem]" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inst" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="rails-assets-lightbox (v2.10.0, rbenv: 2.5.1) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inst" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="rails-assets-lightbox (v2.10.0, rbenv: 2.5.1) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="rails-assets-lightbox (v2.10.0, rbenv: 2.5.1) [gem]" type="70bed36:NamedLibraryElementNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///Users/aleksandrdacenko/RoR/inst/Gemfile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/posts/partials" />
       <recent name="$PROJECT_DIR$/app/views/sign" />
     </key>
   </component>
@@ -334,7 +688,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="IRB console.console">
+  <component name="RunManager" selected="Rails.Development: inst">
     <configuration name="console" type="IrbRunConfigurationType" factoryName="IRB console">
       <module name="inst" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -469,32 +823,36 @@
       <option name="presentableId" value="Default" />
       <updated>1536593007499</updated>
       <workItem from="1536593010527" duration="38697000" />
+      <workItem from="1537968319018" duration="7596000" />
+      <workItem from="1538480975770" duration="32512000" />
+      <workItem from="1538920822541" duration="29124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38697000" />
+    <option name="totallyTimeSpent" value="111271000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27382874" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23263328" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4983845" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5016155" side_tool="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50080776" side_tool="true" weight="0.37037036" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49757674" weight="0.4142661" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.35818714" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.32894737" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32784638" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49919224" weight="0.37037036" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -507,239 +865,321 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sign/sign.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sign_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180911180724_add_user_id_to_posts.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180911182349_string_to_integer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="34" column="97" selection-start-line="34" selection-start-column="97" selection-end-line="34" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="58" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180913171326_acts_as_votable_migration.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_like_template.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <caret column="44" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180912161237_add_details_to_user.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/downvote.js.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="78" selection-start-column="78" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180906182311_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180824143758_create_posts.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/acts_as_votable-0.11.1/lib/acts_as_votable/voter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-443" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/unlocks/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/mailer/email_changed.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/mailer/password_change.html.erb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="79">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="171">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_unlike_template.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="38">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/centered.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/fluid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/gutters.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/infinitescroll.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/right-to-left.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/transitions.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/posts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/stylesheets/masonry/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="20" selection-start-line="20" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_follow_stats.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_follow.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_post.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/partials/_like.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="34" />
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/follows_controller.rb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/posts_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="216">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/profile.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="256" column="18" selection-start-line="256" selection-start-column="18" selection-end-line="256" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/sign.coffee">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users_show.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/all.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="454">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/config/initializers/application_controller_renderer.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/insta.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/plugins/infinite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.haml">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/javascripts/masonry/modernizr-transitions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="3" selection-end-column="27" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.haml">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/javascripts/masonry/masonry.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/users.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/javascripts/masonry/box-maker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/masonry-rails-0.2.4/vendor/assets/javascripts/masonry/jquery.masonry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="466" column="2" selection-start-line="466" selection-start-column="2" selection-end-line="466" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/lib/rails-assets-lightbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/app/assets/javascripts/lightbox/lightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/app/assets/javascripts/lightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/posts.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/core/core.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rails-assets-lightbox-2.10.0/app/assets/javascripts/lightbox/lightbox-plus-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="10287" column="13" selection-start-line="10287" selection-start-column="9" selection-end-line="10287" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

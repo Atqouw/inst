@@ -1,0 +1,43 @@
+-#%section.post
+-#  .post-head.clearfix.otstup
+-#    = image_tag post.user.avatar.url(:thumb), class:'avatar-small' if post.user.avatar?
+-#    = link_to post.user.username, user_path(post.user_id), class:'active btn btn-default btn-lg'
+-#  = link_to (image_tag post.image.url(:large), class:'thumb'), post_path(post) if post.image?
+-#  .container
+-#    %h4
+-#      = post.user.username + ":"
+-#    %p
+-#      = post.title
+-#
+-#    .cccenter
+-#      %div{id: "like-for-post-#{post.id}"}
+-#        = render(partial: 'posts/partials/like_template', locals: { post: post })
+-#      %strong
+-#        &ensp;
+-#      - if current_user && current_user.id == post.user_id
+-#        = link_to 'Изменить', edit_post_path(post), class:""
+-#        = link_to 'Удалить', post_path(post), method: :delete, data: { confirm: 'Вы уверены?' }
+-#      = time_ago_in_words(post.created_at) + ' ago'
+
+
+.card.mb-3.post
+  .card-header
+
+    = image_tag post.user.avatar.url(:thumb), class:'avatar-small llft' if post.user.avatar?
+    = link_to post.user.username, user_path(post.user_id), class:'btn btn-default btn-lg llft shr'
+
+  = link_to (image_tag post.image.url(:large), class: 'card-img-top'), post_path(post) if post.image?
+  .card-body
+    %div{id: "like-section-for-post-#{post.id}"}
+      = render partial: "posts/partials/like", locals: { post: post }
+    %h5.card-title
+      = post.title
+    %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+
+  .card-footer
+    %p.sspr.text-muted
+      = [time_ago_in_words(post.created_at), 'ago'].join(' ')
+      - if current_user && current_user.id == post.user_id
+        = link_to 'Изменить', edit_post_path(post), class:""
+        = link_to 'Удалить', post_path(post), method: :delete, data: { confirm: 'Вы уверены?' }
+

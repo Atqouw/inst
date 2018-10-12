@@ -13,6 +13,10 @@
  *= require_tree
  *= require_self
  *= require font-awesome
+
+ *= require 'masonry/transitions'
+
  */
 @import "bootstrap";
 @import "font-awesome";
+@import "lightbox";

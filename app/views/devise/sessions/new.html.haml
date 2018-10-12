@@ -27,11 +27,11 @@
                     required: true,
                     input_html: { autocomplete: "new-password" }
         = f.label :avatar do
-          = f.file_field :avatar
+          = f.file_field :avatar, class:'fon'
           = f.hidden_field :avatar_cache
 
       .form-actions
-        = f.button :submit, "Sign up"
+        = f.button :submit, "Sign up", class:'btn btn-outline-primary'
 
     = render "devise/shared/links"
 
@@ -55,7 +55,7 @@
 
 
       .form-actions
-        = f.button :submit, "Log in"
+        = f.button :submit, "Log in", class:'btn btn-outline-primary'
 
     = render "devise/shared/links"
 .col-md-1

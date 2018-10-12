@@ -1,0 +1,24 @@
+I"((function() {
+  $(document).on("turbolinks:load", this.initLightBox()(function() {
+    $(document).on("turbolinks:load", function() {});
+    $('.foto').initLightBox();
+    return {
+      initLightBox: (function(_this) {
+        return function() {
+          return $lightbox.init();
+        };
+      })(this)
+    };
+  }));
+
+  $(document).on("turbolinks:load", function() {
+    return $('#posts').imagesLoaded(function() {
+      return $('#posts').masonry({
+        itemSelector: '.box',
+        isFitWidth: true
+      });
+    });
+  });
+
+}).call(this);
+:ET

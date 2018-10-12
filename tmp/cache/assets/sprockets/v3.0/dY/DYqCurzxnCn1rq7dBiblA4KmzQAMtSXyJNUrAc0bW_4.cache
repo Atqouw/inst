@@ -1,0 +1,11 @@
+I"è(function() {
+  var ready;
+
+  $(document).ready(ready);
+
+  $(document).on('turbolinks:load', ready);
+
+  ready = function() {};
+
+}).call(this);
+:ET

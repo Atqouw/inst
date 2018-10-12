@@ -1,0 +1,11 @@
+I"á(function() {
+  console.log('<><><><><><>');
+
+  $(".posts-section").InfiniteScroll({
+    navSelector: "nav.pagination",
+    nextSelector: "nav.pagination a[rel=next]",
+    itemSelector: "#posts tr.post"
+  });
+
+}).call(this);
+:ET

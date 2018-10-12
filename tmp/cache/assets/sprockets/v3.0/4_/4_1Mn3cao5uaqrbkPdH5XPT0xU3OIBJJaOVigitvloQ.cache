@@ -1,0 +1,13 @@
+I"(function() {
+  $(document).ready(function() {
+    console.log('<><><><><><>');
+    console.log($('.posts-section'));
+    console.log('<><><><><><>');
+    return $('.posts-section').infiniteScroll({
+      path: '.next-page',
+      responseType: 'script'
+    });
+  });
+
+}).call(this);
+:ET
